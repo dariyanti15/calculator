@@ -9,6 +9,8 @@ function equal () {
   } 
 }
 function percentage () {
+  document.form.textview.value = document.form.textview.value+num;
+
   if (document.form.textview.value === '0') {
       return;
     }
